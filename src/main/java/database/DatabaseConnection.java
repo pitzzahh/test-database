@@ -16,7 +16,7 @@ public class DatabaseConnection {
             "age INT NOT NULL," +
             "address VARCHAR(200) NOT NULL," +
             "student_number VARCHAR(100) NOT NULL PRIMARY KEY," +
-            "course BYTEA NOT NULL );";
+            "course OBJECT NOT NULL );";
     public DatabaseConnection() {
         Consumer<Connection> createTable = connection -> {
             try {
