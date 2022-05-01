@@ -1,9 +1,8 @@
 package database;
 
+import java.sql.*;
 import model.Course;
 import model.Student;
-
-import java.sql.*;
 import java.util.ArrayList;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
